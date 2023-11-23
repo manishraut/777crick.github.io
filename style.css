@@ -3,28 +3,68 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #fff;
-    /* Add styles for navigation bar */
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
 }
 
-main {
-    /* Styling for main content */
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hero-section {
-    /* Styling for the hero section with background image */
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.product {
-    /* Styling for product listings */
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
 }
 
 footer {
     background-color: #333;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
